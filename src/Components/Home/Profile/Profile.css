@@ -1,0 +1,141 @@
+.profile-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 10%;
+  min-height: fit-content;
+}
+.profile-parent {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+}
+.profile-details {
+  font-size: 24px;
+  font-family: "Poppins SemiBold";
+}
+.profile-details-role {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 24px 0;
+}
+.profile-details-role h1 {
+  font-size: 40px;
+  color: aqua;
+  font-style: italic;
+}
+.text {
+  color: (white--);
+}
+.special-text {
+  color: orangered;
+}
+.profile-role-tagline {
+  font-size: 20px;
+  margin: 10px 0 0 0;
+  font-family: "Poppins Light";
+}
+.profile-options .btn-warning {
+  margin: 0 0 0 28px;
+}
+.profile-options .btn-warning:hover {
+  margin: 0 0 0 28px;
+  background-color: cornsilk;
+  color: black;
+}
+.profile-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 1px 1px;
+  border-radius: 50%;
+  height: 380px;
+  width: 380px;
+  margin: 0 0px 0 120px;
+}
+.profile-picture-background {
+  height: 92%;
+  width: 92%;
+  background-image: url("../../../assets/Home/me.jpeg");
+  background-size: cover;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.fa-github-square {
+  margin-left: 10px;
+}
+
+.profile-picture-background:hover {
+  transform: scale(1.05);
+  transition: 1s ease-out;
+}
+.colz .colz-icon i {
+  color: wheat;
+  padding: 8px;
+  padding-left: 0px;
+}
+.colz .colz-icon i:hover {
+  transform: scale(1.4);
+}
+
+@media screen and (max-width: 1110px) {
+  .profile-picture {
+    margin: 0 0px 0 80px;
+  }
+  .profile-details {
+    font-size: 20px;
+  }
+  .profile-details-role .text {
+    font-size: 12px;
+  }
+  .profile-options .btn {
+    width: 120px;
+    padding: 11px 0;
+    z-index: 700;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .profile-picture {
+    height: 320px;
+    width: 320px;
+    margin: 0 0 0 4;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .profile-picture {
+    margin: 0 !important;
+  }
+  .profile-parent {
+    flex-direction: column-reverse;
+    margin: 40px 0 0 0;
+  }
+  .profile-options {
+    display: flex;
+    justify-content: space-between;
+  }
+  .profile-details {
+    margin: 25px 0 0;
+  }
+  .profile-options .btn-warning {
+    margin: 0 !important;
+  }
+  .profile-options,
+  .profile-details-role {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .profile-picture {
+    height: 275px;
+    width: 275;
+    margin-top: -90px;
+  }
+  .profile-details {
+    width: 90px;
+  }
+}
