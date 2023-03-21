@@ -56,10 +56,12 @@ export default function Profile() {
             </span>
           </div>
           <div className="profile-options">
+          <a href="mailto:tufanrsari@gmail.com">
             <button className="btn btn-success" onClick={btnClick}>
               {""}
               Hire Me!{""}
             </button>
+            </a>
             <a href="TufanSARI's.Resume.pdf" download="TufanSARI's.Resume.pdf">
               <button className="btn btn-warning">Get Resume</button>
             </a>
