@@ -62,7 +62,6 @@ export default function Profile() {
             </button>
             <a href="TufanSARI's.Resume.pdf" download="TufanSARI's.Resume.pdf">
               <button className="btn btn-warning">Get Resume</button>
-              
             </a>
           </div>
         </div>
