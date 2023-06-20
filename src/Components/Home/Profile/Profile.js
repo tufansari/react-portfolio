@@ -3,10 +3,7 @@ import Typical from "react-typical";
 import "./Profile.css";
 
 export default function Profile() {
-  const [phone] = useState("under development :)");
-  const btnClick = () => {
-    phone(alert(phone));
-  };
+ 
 
   return (
     <div className="profile-container">
@@ -57,7 +54,7 @@ export default function Profile() {
           </div>
           <div className="profile-options">
           <a href="mailto:tufanrsari@gmail.com">
-            <button className="btn btn-success" onClick={btnClick}>
+            <button className="btn btn-success">
               {""}
               Hire Me!{""}
             </button>
