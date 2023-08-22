@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import Typical from "react-typical";
 import "./Profile.css";
 
